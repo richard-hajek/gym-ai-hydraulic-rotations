@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hydraulic-rotations-gymai"
+version = "0.1.0"
+description = ""
+authors = ["Richard Hajek <richard.m.hajek@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hydraulic_rotations_gymai"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
