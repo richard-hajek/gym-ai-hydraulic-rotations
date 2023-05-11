@@ -10,8 +10,6 @@ from gym.spaces import Box
 from pathfinding.core.grid import Grid
 from pathfinding.finder.a_star import AStarFinder
 
-from csidrl.agents.agents import RandomAgent
-
 
 class HydraulicRotations(gym.Env):
     def __init__(self, size=64, checkpoints=None, solved=False, grid=None):
